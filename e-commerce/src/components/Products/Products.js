@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import product1 from "../../images/product-1.jpeg";
 
-class Products extends Component {
+class Items extends Component {
   render() {
     return (
       <section className="products">
         <div className="section-title">
           <h2>Our Products</h2>
         </div>
-        <div class="products-center">
+        <div className="products-center">
           {/* single product */}
           <article className="product">
             <div className="img-container">
@@ -26,4 +26,4 @@ class Products extends Component {
   }
 }
 
-export default Products;
+export default Items;
